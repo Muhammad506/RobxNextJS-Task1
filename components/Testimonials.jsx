@@ -8,15 +8,17 @@ const Testimonials = () => {
   return (
     <section className="body-font bg-[#F5F5F5]">
       <div className="container px-5  mx-auto flex justify-center flex-col items-center">
+        {/* heading  */}
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className=" font-bold text-[#212EA0] tracking-widest  title-font mb-1">
-          TESTIMONIALS
+            TESTIMONIALS
           </h2>
           <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900">
             What Student Says
           </h1>
         </div>
 
+        {/* Slider  Section  */}
         <div className="relative w-full sm:w-4/5 md:w-3/4 ">
           <Swiper
             modules={[Navigation]}
@@ -61,7 +63,7 @@ const Testimonials = () => {
                   <div className="flex-grow">
                     <p className="leading-relaxed text-base text-gray-700">
                       Choosing to pursue my degree at Edusity was one of the
-                      best decisions I've ever made. The supportive community,
+                      best decisions I have ever made. The supportive community,
                       state-of-the-art facilities, and commitment to academic
                       excellence have truly exceeded my expectations.
                     </p>
@@ -94,7 +96,7 @@ const Testimonials = () => {
                   <div className="flex-grow">
                     <p className="leading-relaxed text-base text-gray-700">
                       Choosing to pursue my degree at Edusity was one of the
-                      best decisions I've ever made. The supportive community,
+                      best decisions I have ever made. The supportive community,
                       state-of-the-art facilities, and commitment to academic
                       excellence have truly exceeded my expectations.
                     </p>
@@ -127,7 +129,7 @@ const Testimonials = () => {
                   <div className="flex-grow">
                     <p className="leading-relaxed text-base text-gray-700">
                       Choosing to pursue my degree at Edusity was one of the
-                      best decisions I've ever made. The supportive community,
+                      best decisions I have ever made. The supportive community,
                       state-of-the-art facilities, and commitment to academic
                       excellence have truly exceeded my expectations.
                     </p>
@@ -160,7 +162,7 @@ const Testimonials = () => {
                   <div className="flex-grow">
                     <p className="leading-relaxed text-base text-gray-700">
                       Choosing to pursue my degree at Edusity was one of the
-                      best decisions I've ever made. The supportive community,
+                      best decisions I have ever made. The supportive community,
                       state-of-the-art facilities, and commitment to academic
                       excellence have truly exceeded my expectations.
                     </p>

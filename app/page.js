@@ -1,4 +1,5 @@
 import AboutUni from "@/components/AboutUni";
+import ContactUs from "@/components/ContactUs";
 import Gallery from "@/components/Gallery";
 import LandingPage from "@/components/LandingPage";
 import Navbar from "@/components/Navbar";
@@ -15,6 +16,7 @@ const page = () => {
       <AboutUni />
       {/* <Gallery /> */}
       <Testimonials />
+      <ContactUs />
     </div>
   );
 };
