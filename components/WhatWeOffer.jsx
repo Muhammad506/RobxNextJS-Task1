@@ -3,7 +3,7 @@ import { PiStudentBold } from "react-icons/pi";
 
 const WhatWeOffer = () => {
   return (
-    <main className="py-16 flex flex-col justify-center items-center bg-[#F5F5F5]">
+    <main className="pt-16 flex flex-col justify-center items-center bg-[#F5F5F5]">
       <div className="space-y-1 items-center flex flex-col py-4">
         <h6 className="text-[#212EA0] text-sm font-bold">OUR PROGRAM</h6>
         <h3 className="text-3xl font-sans font-bold pb-20">What We Offer</h3>
