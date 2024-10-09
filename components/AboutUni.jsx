@@ -1,16 +1,15 @@
 const AboutUni = () => {
   return (
-    <main className="flex h-screen">
-      {/* video section  */}
-      <div className="w-[45%]">Video</div>
-
+    <main className="flex flex-col items-center lg:flex-row  px-4 lg:px-20 bg-[#F5F5F5] py-16">
       {/* content section  */}
-      <div className="w-[55%]">
-        <div>
-          <h6>ABOUT UNIVERSITY</h6>
-          <h1>Nurturing Tomorrow's Leaders Today</h1>
+      <div className="order-1 lg:order-2 w-full lg:w-4/6 space-y-3">
+        <div className="space-y-2 lg:w-4/5 w-full">
+          <h6 className="text-[#212EA0] font-bold text-lg">ABOUT UNIVERSITY</h6>
+          <h1 className="font-bold text-4xl leading-[2.8rem]">
+            Nurturing Tomorrow's Leaders Today
+          </h1>
         </div>
-        <div>
+        <div className="text-gray-500 font-medium space-y-4 leading-tight">
           <p>
             Embark on a transformative educational journey with our university's
             comprehensive education programs. Our cutting-edge curriculum is
@@ -29,6 +28,20 @@ const AboutUni = () => {
             shaping the future of education.
           </p>
         </div>
+      </div>
+
+      {/* video section  */}
+      <div className="order-2 lg:order-1 w-full lg:w-2/5 px-8 xl:ml-24 py-8">
+        <iframe
+          width="100%"
+          height="340"
+          className="rounded-xl"
+          src="https://www.youtube.com/embed/piN4eP0CkUY"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </main>
   );

@@ -3,60 +3,64 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 const Gallery = () => {
   return (
-    <main className="my-16 flex flex-col justify-center items-center">
-      <div className="space-y-1 items-center  flex flex-col py-4">
-        <h6 className="text-[#212EA0]  font-semibold text-lg ">Gallery</h6>
-        <h3 className="text-3xl font-sans font-bold pb-14"> Campus Photos</h3>
+    <main className="py-16 flex flex-col justify-center items-center px-4 xl:px-0 bg-[#F5F5F5]">
+      <div className="space-y-1 items-center flex flex-col py-4">
+        <h6 className="text-[#212EA0] font-semibold text-lg">Gallery</h6>
+        <h3 className="text-3xl font-sans font-bold pb-14">Campus Photos</h3>
       </div>
-      <div className="flex space-x-8 -z-50">
+
+      {/* image section  */}
+      <div className="grid grid-cols-2 lg:grid-cols-4  md:flex-row  lg:space-x-10 space-y-8 md:space-y-0">
         {/* img1 */}
-        <div className="relative w-[230px] h-[300px] rounded-lg overflow-hidden group">
+        <div className="relative w-[210px] h-[210px] md:w-[220px] md:h-[220px] lg:w-[200px] lg:h-[230px] xl:w-[230px] mb-4 xl:h-[275px] rounded-lg overflow-hidden group">
           <Image
-            src="/Gallery1.jpg"
-            alt="wwo1"
-            width={230}
-            height={300}
-            className="rounded-lg size-[320px]"
+            src="/g1.jpg"
+            alt="g1"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
           />
         </div>
 
         {/* img2 */}
-        <div className="relative w-[230px] h-[300px] rounded-lg overflow-hidden group ">
+        <div className="relative w-[210px] h-[210px] md:w-[220px] md:h-[220px] lg:w-[200px] lg:h-[230px] mb-4 xl:w-[230px] xl:h-[275px] rounded-lg overflow-hidden group">
           <Image
-            src="/Gallery2.jpg"
-            alt="wwo2"
-            width={230}
-            height={250}
-            className="size-[320px] rounded-lg "
+            src="/g2.jpg"
+            alt="g2"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
           />
         </div>
 
         {/* img3 */}
-        <div className="relative w-[230px] h-[300px] rounded-lg overflow-hidden group">
+        <div className="relative w-[210px] h-[210px] md:w-[220px] md:h-[220px] lg:w-[200px] lg:h-[230px] mb-4 xl:w-[230px] xl:h-[275px] rounded-lg overflow-hidden group">
           <Image
             src="/Gallery3.jpg"
-            alt="wwo2"
-            width={230}
-            height={250}
-            className="size-[320px] rounded-lg"
+            alt="g3"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
           />
         </div>
 
         {/* img4 */}
-        <div className="relative w-[230px] h-[300px] rounded-lg overflow-hidden group">
+        <div className="relative w-[210px] h-[210px] md:w-[220px] md:h-[220px] lg:w-[200px] lg:h-[230px] mb-4 xl:w-[230px] xl:h-[275px] rounded-lg overflow-hidden group">
           <Image
-            src="/Gallery4.jpg"
-            alt="wwo2"
-            width={230}
-            height={250}
-            className="size-[320px] rounded-lg"
+            src="/OP3.jpg"
+            alt="g4"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
           />
         </div>
       </div>
+
+      {/* button section  */}
       <div>
-        <button className="flex border text-white bg-[#212EA0] my-8 py-3 px-6 rounded-3xl">
+        <button className="flex border text-white bg-[#212EA0] my-8 py-3 px-6 font-semibold rounded-3xl">
           See more here
-          <HiArrowLongRight className=" size-6 ml-2" />
+          <HiArrowLongRight className="size-6 ml-2" />
         </button>
       </div>
     </main>

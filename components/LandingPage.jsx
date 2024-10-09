@@ -2,7 +2,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 const LandingPage = () => {
   return (
-    <main className="bg-[url('/bg.jpg')] bg-cover bg-center h-screen font-sans-serif">
+    <main className="bg-[url('/bg.jpg')] bg-cover bg-center h-screen  font-sans-serif">
       <div className="flex flex-col justify-center items-center text-center h-full bg-black bg-opacity-50">
         {/* content section  */}
         <div className="xl:w-2/3 md:w-5/6 w-full px-4 md:px-0  xl:px-20 ">
