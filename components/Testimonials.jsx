@@ -172,9 +172,9 @@ const Testimonials = () => {
             </SwiperSlide>
 
             {/* Navigation buttons */}
-            <div className="swiper-button-prev absolute top-1/2 left-4 transform -translate-y-1/2 text-white ">
+            <div className="swiper-button-prev absolute top-1/2 left-4 pr-6 transform -translate-y-1/2 text-white  ">
               <svg
-                className="w-8 h-8"
+                className="w-8 h-8 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -187,7 +187,7 @@ const Testimonials = () => {
                 />
               </svg>
             </div>
-            <div className="swiper-button-next absolute top-1/2 right-4 transform -translate-y-1/2 text-white">
+            <div className="swiper-button-next absolute top-1/2 right-4 transform -translate-y-1/2 text-white pl-6">
               <svg
                 className="w-8 h-8"
                 fill="none"
