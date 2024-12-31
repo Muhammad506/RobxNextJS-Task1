@@ -6,12 +6,12 @@ const AboutUni = () => {
         <div className="space-y-2 lg:w-4/5 w-full">
           <h6 className="text-[#212EA0] font-bold text-lg">ABOUT UNIVERSITY</h6>
           <h1 className="font-bold text-4xl leading-[2.8rem]">
-            Nurturing Tomorrow's Leaders Today
+            Nurturing Tomorrow`s Leaders Today
           </h1>
         </div>
         <div className="text-gray-500 font-medium space-y-4 leading-tight">
           <p>
-            Embark on a transformative educational journey with our university's
+            Embark on a transformative educational journey with our university`s
             comprehensive education programs. Our cutting-edge curriculum is
             designed to empower students with the knowledge, skills, and
             experiences needed to excel in the dynamic field of education.
